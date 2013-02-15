@@ -14,8 +14,8 @@ namespace _5_CSharp
             Queue queue = new Queue();
             for (int i = 0; i < 10; i++)
             {
-                queue.push(i);
                 stack.push(i);
+                queue.push(i);
             }
 
             Console.WriteLine("Work of the Stack:");
