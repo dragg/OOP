@@ -81,22 +81,34 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="FactoryShape.h" />
+    <ClInclude Include="Hexagon.h" />
     <ClInclude Include="Line.h" />
+    <ClInclude Include="Octagon.h" />
     <ClInclude Include="Operation.h" />
+    <ClInclude Include="Parallelogram.h" />
     <ClInclude Include="Point.h" />
+    <ClInclude Include="Rectangle.h" />
     <ClInclude Include="Shape.h" />
     <ClInclude Include="Square.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="Trapeze.h" />
     <ClInclude Include="Triangle.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="FactoryShape.cpp" />
+    <ClCompile Include="Hexagon.cpp" />
     <ClCompile Include="Line.cpp" />
+    <ClCompile Include="Octagon.cpp" />
     <ClCompile Include="Operation.cpp" />
+    <ClCompile Include="Parallelogram.cpp" />
     <ClCompile Include="Point.cpp" />
+    <ClCompile Include="Rectangle.cpp" />
     <ClCompile Include="Shape.cpp" />
     <ClCompile Include="Square.cpp" />
     <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Trapeze.cpp" />
     <ClCompile Include="Triangle.cpp" />
     <ClCompile Include="№3 C++.cpp" />
   </ItemGroup>
